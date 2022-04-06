@@ -1,30 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
         <title>My Portfolio</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap" rel="stylesheet">
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="../public/style.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="header">
-            <div><b>J.E</b></div>
-            <div class="menu">
-                <div></div>
-                <div></div>
-                <div></div> 
-            </div>
-        </div>
+        <header class="header">
+            <nav class="navbar">
+                <ul>
+                    <li class="navbar-logo">My Port</li>
+                    <li class="navbar-toggle"><i class="fas fa-bars"></i></li>
+                    <li class="navbar-links"><a href="#">Home</a></li>
+                    <li class="navbar-links"><a href="#">About</a></li>
+                    <li class="navbar-links"><a href="#">Resume</a></li>
+                    <li class="navbar-links"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
-        <div class="midder">
-            <div class="image">
-                <img src="pictures/personal.jpg"> 
-            </div>
+        
 
             <div class="desc">
                 <span>Hi! </span> <br>
                 I'm John Doe, a Backend Web Developer </div>
                 <div class="skills">
-                    <div class="preamble">I create masterpiece software using any of these tools: </div>
+                    <div class="preamble">
+                        <p>I create masterpiece software using any of these tools: </p>
+                    </div>
                     <div class="skill-list">
                         <div class="left-list">
                             <ul>
@@ -57,10 +65,8 @@
             </div>
 
         </div>
-
-        <div class="footer">
-            <div>Copyright &#169; 2022 </div>
-        </div>
+        <footer class="footer"><h6 class="text-color">Copyright&#169; 2022</h6></footer>
+        
     </body>
-
+    <script></script>
 </html>
