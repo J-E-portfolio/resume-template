@@ -6,10 +6,9 @@
 }
 header {
     background: darkblue;
-    padding-bottom: 1px;
     
 }
-header img {
+img {
     border-image: round;
     border-radius: 50%;
 }
@@ -36,10 +35,11 @@ a {
 
 nav {
     width: 100%;
+    background-color: darkblue;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0px;
+    padding: 10px 0px;
 }
 
 nav ul li{
