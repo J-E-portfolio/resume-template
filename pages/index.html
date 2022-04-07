@@ -2,77 +2,61 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <title>My Portfolio</title>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap" rel="stylesheet">
-        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
         <link rel="stylesheet" href="../public/style.css">
-
-        
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     </head>
     <body>
 
-            <nav class="navbar">
-                
-                <ul>
-                    <li class="navbar-logo">
-                        <a href="/" class="logo">
-                            <img src="../pictures/personal.jpg" width="30" height="50" alt="My Portfolio">
-                        </a>
-                    </li>
-                    <li class="navbar-toggle"><i class="fas fa-bars"></i></li>
-                    <li class="navbar-links"><a href="#">Home</a></li>
-                    <li class="navbar-links"><a href="#">About</a></li>
-                    <li class="navbar-links"><a href="#">Resume</a></li>
-                    <li class="navbar-links"><a href="#">Contact</a></li>
-                </ul>
-            </nav>
- 
+        <header>
+            <a href="#" class="logo">
+                My Port<span>folio</span>
+            </a>
+            <div class="bx bx--menu" id="menu-icon"><i class='bx bx-menu'></i></div>
+            <ul class="navbar">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Resume">Resume</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </header>
 
-        
-
-            <div class="desc">
-                <span>Hi! </span> <br>
-                I'm John Doe, a Backend Web Developer </div>
-                <div class="skills">
-                    <div class="preamble">
-                        <p>I create masterpiece software using any of these tools: </p>
-                    </div>
-                    <div class="skill-list">
-                        <div class="left-list">
-                            <ul>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-                                <li>Google's Go (Golang)</li>
-                                <li>Postgresql</li>
-                                <li>MySql</li>
-                                <li>MongoDB</li>
-                            </ul>
-                        </div>
-                        <div class="right-list">
-                            <ul>
-                                <li>NodeJS</li>
-                                <li>Gorilla</li>
-                                <li>Docker</li>
-                                <li>Kubernetes</li>
-                                <li>ExpressJS</li>
-                                <li>AWS</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            <div>
-                <button>Check out my projects </button>
-            </div>
-            <div class=" social-media">
-
+        <!-- start home -->
+        <section class="home" id="home">
+            <div class="home-text">
+                <h5>Hello, there! My name is</h5>
+                <h1>Joe</h1>
+                <h6>I am a <span>backend</span> developer.</h6>
+                <p>I build the logical part of a website, connecting database to available templates, apps, and 
+                  APIs with strong authentication and authorization for users or clients.
+                </p>
+                <a href="#" class="btn">Download CV</a>
+                <a href="#" class="btn-pro">View Projects</a>
             </div>
 
-        </div>
+            <div class="home-img">
+                <img src="../pictures/personal.jpg" alt="">
+            </div>
+
+        </section>
+
+<!-- start about -->
+        <section class="about">
+            <div class="about-img">
+               <img src="../pictures/personal.jpg" alt=""> 
+            </div>
+        </section>
+
         <footer class="footer"><h6 class="text-color">Copyright&#169; 2022</h6></footer>
-        
+
+        <!-- link to js file -->
+
+        <script type="text/javascript" src="../public/index.js"></script>
     </body>
-    <script></script>
+    
 </html>
