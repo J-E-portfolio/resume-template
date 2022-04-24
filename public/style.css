@@ -307,28 +307,52 @@ section{
 
 .resume-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
-    grid-gap:1rem;
+    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+    grid-gap:4rem;
     align-items: center;
     margin-top: 4.4rem;
 }
 
 .box {
-    background: #141417;
-    padding: 60px 35px;
+    background: #16161a;
+    padding: 40px 30px;
     border-radius: 5px;
     cursor: pointer;
     transition: all .40s;
 }
 
 .box h6 {
-    color: var(--text-color);
+    color: rgb(113, 110, 110);
     font-size: 1.3rem;
-    font-weight: 700;
+    font-weight: 400;
     margin-top: 25px;
     margin-bottom: 30px;
 
 }
+
+.box h4 {
+    color: var(--text-color);
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 13px;
+}
+
+.box:hover{
+    transform: translateY(-15px);
+    box-shadow: 0px 15px 30px 0px rgba(12, 2, 2, 0.8);
+}
+
+.box p {
+    font-size: 18px;
+    margin-bottom: 1.2rem;
+    font-size: var(--p-font);
+    color: var(--2nd-main-color);
+    line-height: 30px;
+}
+
+
+
 
 
 
